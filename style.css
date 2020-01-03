@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #060606;
+}
+
+h1{
+	color:#fff;
+	text-align: center;
+	line-height: 100vh;
+	font-size: 4rem;
+}
+
+span{
+	opacity: 0;
+	transition: 1.5s all ease;
+	/*transform: translateY(-500px);*/
+	/*display: inline-block;*/
+}
+
+span.animate{
+	color:aquamarine;
+	opacity: 1;
+	/*transform: translateX(0px);*/
+}
